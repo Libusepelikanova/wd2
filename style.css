@@ -1,4 +1,26 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+}
+
+.profil {
+    padding: 2%;
+    
+}
+h1 {
+    color: rgb(79, 70, 299);
+}
+h2 {
+    color: rgb(99, 102, 241);
+}
+.info p {
+    color: rgb(31, 41, 55);
+}
+.foto img {
+    display: inline-block;
+    border: 5px solid rgb(79, 70, 299);
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
 }
