@@ -12,28 +12,31 @@ body {
     margin: 5%;
     background-color: white;
     border-radius: 20px;
-    padding: 7%;
-}
+    }
 
 h1 {
     color: rgb(79, 70, 299);
     font-size: 50px;
     font-family: 'Segoe UI', sans-serif;
     padding-bottom: 3%;
+    margin-left: 10%;
 }
 
 p {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(31, 41, 55);
     padding-bottom: 2%;
+
 }
 
 .hltext {
     font-size: 30px;
+    margin-left: 10%;
 }
 
 .hlpod {
     font-size: 22px;
+    margin-left: 10%;
 }
 
 .foto img {
@@ -42,6 +45,7 @@ p {
     border-radius: 50%;
     height: 170px;
     width: 170px;
+    margin-top: 10%;
 }
 
 .foto {
@@ -56,6 +60,7 @@ h2 {
     font-family: 'Segoe UI', sans-serif;
     font-size: 35px;
     padding: 5% 0%;
+    margin-left: 10%;
 }
 
 .dovednost1 {
@@ -68,7 +73,7 @@ h2 {
     color: rgb(31, 41, 55);
     font-size: 22px;
     border-radius: 20px;
-    margin-bottom: 3%;
+    margin: 0% 10% 3%;
 }
 
 .dovednost2 {
@@ -81,7 +86,7 @@ h2 {
     color: rgb(31, 41, 55);
     font-size: 22px;
     border-radius: 20px;
-    margin-bottom: 3%;
+    margin: 0% 10% 3%;
 }
 
 .dovednost3 {
@@ -94,7 +99,7 @@ h2 {
     color: rgb(31, 41, 55);
     font-size: 22px;
     border-radius: 20px;
-    margin-bottom: 3%;
+    margin: 0% 10% 3%;
 }
 
 .dovednost4 {
@@ -107,7 +112,7 @@ h2 {
     color: rgb(31, 41, 55);
     font-size: 22px;
     border-radius: 20px;
-    margin-bottom: 3%;
+    margin: 0% 10% ;
 }
 
 .logoprokavarnu {
@@ -115,12 +120,16 @@ h2 {
     border: 5px solid rgb(243, 244, 246);
     border-radius: 20px;
     padding: 3%;
+    width: 80%;
+    margin: 0% 10% 5% ;
    
 }
 
 .logoprokavarnu img {
     height: 350px;
     border-radius: 20px;
+    width: 100%;
+    
     
 }
 
@@ -141,7 +150,8 @@ h2 {
     border: 5px solid rgb(243, 244, 246);
     border-radius: 20px;
     padding: 3%;
-    margin-top: 5%;
+    width: 80%;
+    margin: 0% 10% 5% ;
     
    
 }
@@ -149,6 +159,7 @@ h2 {
 .plakatprokulturniakci img {
     height: 350px;
     border-radius: 20px;
+    width: 100%;
     
 }
 
@@ -169,7 +180,8 @@ h2 {
     border: 5px solid rgb(243, 244, 246);
     border-radius: 20px;
     padding: 3%;
-    margin-top: 5%;
+    width: 80%;
+    margin: 0% 10%  ;
     
    
 }
@@ -177,6 +189,7 @@ h2 {
 .obalkaknihy img {
     height: 350px;
     border-radius: 20px;
+    width: 100%;
     
 }
 
@@ -193,10 +206,96 @@ h2 {
 
 }
 
-.kontakt p {
+.email, .instagram, .behance {
+    font-family: 'Segoe UI', sans-serif;
     font-size: 30px;
-    padding-bottom: 3%;
+    padding: 0% 0% 3% 10%;
+    color: rgb(31, 41, 55);
+}
+.instagram, .behance {
+    display: flex;
+    flex-wrap: nowrap;
 }
 .modrytext {
     color: rgb(99, 102, 241);
+}
+
+@media ( min-width: 1200px ) {
+    .profil{
+        margin: 3%;
+    }
+    .foto {
+        padding: 5%;
+    }
+    h2 {
+        margin: 0% 5% ;
+        padding: 2% 0%;
+    }
+    
+    .foto img {
+        height: 180px;
+        width: 180px;
+    }
+    .info {
+        display: flex;
+        flex-wrap: nowrap;
+        
+    }
+    .infotexty {
+        flex-wrap: wrap;
+        
+    }
+    h1 {
+        margin-top: 10%;
+        margin-left: 0%;
+    }
+    .hltext {
+        font-size: 35px;
+        margin-left: 0%;
+    }
+    
+    .hlpod {
+        font-size: 25px;
+        margin-left: 0%;
+    }
+    .dovednosti h2 {
+        padding: 0% 0% 2% 0%;
+    }
+    .vsechnydovednosti {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 90%;
+        margin: 0% 5%;
+    }
+    .dovednost1, .dovednost2, .dovednost3, .dovednost4 {
+        margin: 0%;
+        padding: 3%;
+        width: 20%;
+        font-size: 25px;
+    }
+    .projekty {
+        width: 90%;
+        margin: 0% 5%;
+        display: flex;
+        justify-content: space-between;
+        
+        
+    }
+    .logoprokavarnu, .obalkaknihy, .plakatprokulturniakci {
+        width: 30%;
+        margin: 0%;
+        padding: 2%;
+        height: 100%;
+       
+    }
+    .knihadruhytext, .akcedruhytext, .kavarnadruhytext {
+        font-size: 30px;
+    }
+    .kavarnatext, .akcetext, .knihatext {
+        font-size: 35px;
+    }
+    .email, .instagram, .behance {
+        padding: 0% 5% 2%;
+    }
 }
